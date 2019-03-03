@@ -1,0 +1,122 @@
+
+* { box-sizing: border-box;} 
+img.doggos {
+	float: right;
+	padding: 0 1em 1em 0;
+	width: 100px;
+
+}
+img.photo {
+	float: left;
+	padding: 0 1em 1em 0;
+	width 75px;
+
+}
+.container {
+  background-color: rgb(154, 186, 147); 
+	max-width: 960px;
+}	
+
+.wrapper {
+		width: 640px;
+}
+
+div {
+	border: 2px solid blue;
+
+}
+/* header */
+
+.collapse {
+	background-color: rgb(154, 186, 147);
+}
+
+/* social */
+
+.social img { 
+	padding: 1px;
+    border: 1px solid #ddd;
+
+	width: 62px;
+    height: 62px;
+}
+
+.social {
+	color: cadetblue;
+	background: #fff;
+}
+
+/* Contact */
+
+.main {
+	display: inline-block;
+	float: left;
+	width: 600px;
+  padding: 40px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+/* footer */
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 2px;
+	text-align: center;
+	font-size: 0.8em;
+	color: #cccccc;
+	background-color: #666666;
+	border-top: 7px solid #4aaaa5;
+}
+
+/* portfolio */
+
+.thumbnail 
+{
+    max-width: 100%;
+    position: relative;
+    border: none;
+}
+/* Portfolio Page */
+
+.portfolio-item {
+	display: inline-block;
+	position: left;
+	width: 200px;
+	overflow: auto;
+  list-style-type: none;
+}
+
+
+/* @media screen and (max-width: 768px) {
+	body {
+		background-color: rgb(151, 172, 116);
+	  } 
+	} */
+
+	/* @media (min-width: 576px) {
+		.container {
+		  max-width: 540px;
+		}
+	  }
+	  
+	  @media (min-width: 768px) {
+		.container {
+		  max-width: 720px;
+		  background-color: rgb(151, 172, 116);
+		}
+	  }
+	  
+	  @media (min-width: 992px) {
+		.container {
+		  max-width: 960px;
+		}
+	  }
+	  
+	  @media (min-width: 1200px) {
+		.container {
+		  max-width: 1140px;
+		}
+	  } */
