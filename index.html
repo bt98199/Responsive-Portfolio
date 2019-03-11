@@ -15,24 +15,31 @@
 </head>
 
 <body>
-  <!-- Navbar Container -----------(need to put in the collapsable menu widget [do they still use the term "widget?"------>
-  <div class="wrapper">
-    <header id="masthead">
-      <div class="container">
-        <a href="index.html" id="logo">Bronson Turnquist</a>
-        <nav>
-          <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-<!-- / Navbar Container ------------------------------------------------->
-<!-- Main Container ----------------------------------------------------->
-    <main class="container">
-      <section class="main-section">
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="./index.html">Bronson Turnquist</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="row">
+<div class="col-lg-8">
+    <section class="main-section">
         <h1>About Me</h1>
         <img class="photo" src="./assets/images/bt_thumb.jpg" alt="bt_thumb">
         <h5>
@@ -115,30 +122,39 @@
         <p>
           While the new member was speaking, Joker had walked up behind him, and had pulled out a claw hammer. Just as  the new member was ending his speech, Joker struck him in the back of the head and killed him. As the new member  was falling to the ground Joker said: “The data doesn’t support what he is saying, but I have pulled 5 fire fighters off of the fire line to do a deep dive into the situation and return with an analysis in a month.  Now, where were we in our cheer?”
       </section>
-      <section class="sidebar">
-          <h3>Social Media</h3>
-          <a href="https://github.com/bt98199" target="_blank"><img src="./assets/images/github-128.png" alt="GitHub"></a>
-          <a href="https://www.linkedin.com/in/bronson747" target="_blank"><img src="./assets/images/linkedin-128.png" alt="LinkedIn"></a>
-          <a href="https://stackoverflow.com/users/11059159/bt98199" target="_blank"><img src="./assets/images/stackoverflow-128.png" alt="StackOverflow"></a>
-      </section>
 
-    </main>
-    <div class="push"></div>
+      <br><br>
+    </div>
+
+    <div class="col-lg-4">
+        <section class="sidebar">
+            <h3>Social Media</h3>
+            <a href="https://github.com/bt98199" target="_blank"><img src="./assets/images/github-128.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/bronson747" target="_blank"><img src="./assets/images/linkedin-128.png" alt="LinkedIn"></a>
+            <a href="https://stackoverflow.com/users/11059159/bt98199" target="_blank"><img src="./assets/images/stackoverflow-128.png" alt="StackOverflow"></a>
+        </section>
     </div>
   </div>
-  <!-- / Main Container ----------------------------------------------------->
+</div>
 
-  <footer>
-    <div>
-      Remember to Zipper Merge on the Ballard Bridge!
-    </div>
-  </footer>
 
+
+
+
+
+
+
+
+<footer>
+  <div>
+    Remember to Zipper Merge on the Ballard Bridge!
+  </div>
+</footer>
   <!-- JS Links -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="./assets/js/script.js"></script>
+  <!-- <script src="./assets/js/script.js"></script> -->
 </body>
 
 </html>
